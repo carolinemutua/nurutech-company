@@ -23,7 +23,7 @@ agent consumes.
 | 4 | `engineer-agent` | Task list | Source code |
 | 5 | `qa-agent` | Code | Test suite and defect notes |
 
-A `cto-orchestrator` agent runs the stages in order and passes each artifact
+A `team-orchestrator` agent runs the stages in order and passes each artifact
 forward.
 
 ## Coordination model
@@ -44,7 +44,7 @@ down a line.
 | `planner-agent` | Project Manager | Available |
 | `engineer-agent` | Engineer | Available |
 | `qa-agent` | QA Engineer | Available |
-| `cto-orchestrator` | Orchestrator | Planned |
+| `team-orchestrator` | Orchestrator | Available |
 
 ## Using it in Claude Code
 
