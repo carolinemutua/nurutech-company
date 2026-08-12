@@ -21,7 +21,7 @@ agent consumes.
 | 2 | `architect-agent` | PRD | System design and API contracts |
 | 3 | `planner-agent` | Design | Task list and file plan |
 | 4 | `engineer-agent` | Task list | Source code |
-| 5 | `qa-agent` | Code | Review, test notes, defect list |
+| 5 | `qa-agent` | Code | Test suite and defect notes |
 
 A `cto-orchestrator` agent runs the stages in order and passes each artifact
 forward.
@@ -43,7 +43,7 @@ down a line.
 | `architect-agent` | Architect | Available |
 | `planner-agent` | Project Manager | Available |
 | `engineer-agent` | Engineer | Available |
-| `qa-agent` | QA Engineer | Planned |
+| `qa-agent` | QA Engineer | Available |
 | `cto-orchestrator` | Orchestrator | Planned |
 
 ## Using it in Claude Code
