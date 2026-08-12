@@ -40,7 +40,7 @@ down a line.
 | Agent | Role | Status |
 | --- | --- | --- |
 | `pm-agent` | Product Manager | Available |
-| `architect-agent` | Architect | Planned |
+| `architect-agent` | Architect | Available |
 | `planner-agent` | Project Manager | Planned |
 | `engineer-agent` | Engineer | Planned |
 | `qa-agent` | QA Engineer | Planned |
