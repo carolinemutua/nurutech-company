@@ -41,7 +41,7 @@ down a line.
 | --- | --- | --- |
 | `pm-agent` | Product Manager | Available |
 | `architect-agent` | Architect | Available |
-| `planner-agent` | Project Manager | Planned |
+| `planner-agent` | Project Manager | Available |
 | `engineer-agent` | Engineer | Planned |
 | `qa-agent` | QA Engineer | Planned |
 | `cto-orchestrator` | Orchestrator | Planned |
