@@ -26,15 +26,6 @@ agent consumes.
 A `team-orchestrator` agent runs the stages in order and passes each artifact
 forward.
 
-## Coordination model
-
-MetaGPT coordinates roles through a shared message bus: each role watches for a
-message type and activates when it appears. Claude Code subagents coordinate
-differently. A lead agent delegates to each specialist in turn and forwards the
-result. The wiring is hierarchical delegation rather than emergent publish and
-subscribe, but the outcome is the same: specialized roles handing structured work
-down a line.
-
 ## Agent roster and build status
 
 | Agent | Role | Status |
