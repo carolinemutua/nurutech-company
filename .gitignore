@@ -1,0 +1,12 @@
+# Generated project output from the engineer agent
+/workspace/
+/output/
+
+# Local quality or analysis reports
+*.local.html
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
